@@ -16,22 +16,22 @@ public class Main {
         ArrayList<Integer> intList = new ArrayList<>();
         intList.add(1);
         intList.add(2);
-        intList.add(3);
+        intList.add(38);
         intList.add(4);
         intList.add(5);
-        System.out.println("Max value (int): " + findMax3(intList));
+        System.out.println("Max value (int) - ver 3: " + findMax3(intList));
 
         ArrayList<LocalDate> dateList = new ArrayList<>();
         dateList.add(LocalDate.of(2000, 1, 1));
-        dateList.add(LocalDate.of(2010, 1, 1));
+        dateList.add(LocalDate.of(2022, 1, 1));
         dateList.add(LocalDate.of(2020, 1, 1));
         //System.out.println("Max value (date): " + findMax3(dateList));
-        System.out.println("Max value (date): " + findMax4(dateList));
+        System.out.println("Max value (date) ver4: " + findMax4(dateList));
 
-        System.out.println("Max value (int): " + findMax5(intList));
-        System.out.println("Max value (int): " + findMax5(intList));
+        System.out.println("Max value (int) v5 int: " + findMax5(intList));
+        System.out.println("Max value (int) v6 int: " + findMax6(intList));
 
-        //System.out.println("Max value (date): " + findMax4(dateList));
+        //System.out.println("Max value (date): " + findMax5(dateList));
         System.out.println("Max value (date): " + findMax6(dateList));
     }
 
